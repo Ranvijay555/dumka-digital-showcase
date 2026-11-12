@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import HeroSlider from "../components/HeroSlider";
 import ServiceGrid from "../components/ServiceGrid";
 import Team from "../components/Team";
 import PricingSection from "../components/PricingSection";
@@ -39,30 +40,8 @@ function Home() {
 
   return (
     <>
-      {/* TOP FULL-WIDTH IT TECHNOLOGY HERO BANNER */}
-      <section className="relative w-full overflow-hidden bg-slate-950 border-b border-slate-800">
-        <div className="relative w-full h-[280px] sm:h-[420px] md:h-[500px] lg:h-[560px]">
-          <img
-            src="/images/hero-new.jpg"
-            alt="WebTech IT Agency — Software, Web & App Development in India"
-            className="w-full h-full object-cover object-center brightness-95 contrast-105"
-            loading="eager"
-          />
-          {/* Subtle gradient overlays to blend top and bottom smoothly */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-black/30 pointer-events-none" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/50 via-transparent to-slate-950/50 pointer-events-none" />
-
-          {/* Floating Badge on the image */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 w-full px-4 text-center">
-            <div className="inline-flex items-center gap-2 rounded-full bg-slate-900/90 backdrop-blur-md px-4 sm:px-6 py-2 text-xs sm:text-sm font-semibold text-white border border-slate-700/80 shadow-2xl">
-              <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-amber-400 font-bold">India's Leading Next-Gen IT Agency</span>
-              <span className="text-slate-400 hidden sm:inline">|</span>
-              <span className="text-slate-200 hidden sm:inline">Web, Mobile Apps & Enterprise Software</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* TOP FULL-WIDTH IT TECHNOLOGY HERO SLIDER (5 DYNAMIC ROTATING SLIDES) */}
+      <HeroSlider />
 
       {/* HERO WRITTEN CONTENT & CTAs (BELOW THE IMAGE) */}
       <section className="relative overflow-hidden bg-hero text-dark-foreground pt-14 pb-20 lg:pt-16 lg:pb-28 border-b border-slate-800">
