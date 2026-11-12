@@ -43,7 +43,7 @@ function Home() {
       <section className="relative w-full overflow-hidden bg-slate-950 border-b border-slate-800">
         <div className="relative w-full h-[280px] sm:h-[420px] md:h-[500px] lg:h-[560px]">
           <img
-            src="/images/it-tech-full-hero.jpg"
+            src="/images/hero-new.jpg"
             alt="WebTech IT Agency — Software, Web & App Development in India"
             className="w-full h-full object-cover object-center brightness-95 contrast-105"
             loading="eager"
@@ -207,7 +207,7 @@ function Home() {
               </div>
             </div>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-xl mx-auto">
-              Partner with Founders <strong>Ranvijay Kumar</strong> & <strong>Sreya Arora</strong> (+91 95899 11153), Technical Head <strong>Digvijay Kumar</strong>, and Marketing Head <strong>Mahesh Yaduvanshi</strong> for your next high-growth digital launch.
+              Partner with Founders <strong>Ranvijay Kumar</strong> (+91 96615 86855) & <strong>Sreya Arora</strong>, Technical Head <strong>Digvijay Kumar</strong>, and Marketing Head <strong>Mahesh Yaduvanshi</strong> for your next high-growth digital launch.
             </p>
             <div className="flex flex-wrap justify-center gap-4 pt-2">
               <Link to="/contact" className="btn-primary text-sm sm:text-base">
