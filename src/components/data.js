@@ -5,7 +5,8 @@
 
 export const companyInfo = {
   name: "WebTech",
-  tagline: "Empowering Ambitious Businesses Across India with World-Class Digital Solutions",
+  logo: "/images/webtech-logo.jpg",
+  tagline: "Your Digital Success Partner",
   shortDesc: "India's Premier Web Design, Mobile App Development, E-Commerce & Growth Marketing Agency delivering high-impact digital solutions nationwide.",
   longDesc: "WebTech is an industry-leading IT and digital agency serving ambitious startups, growing brands, and enterprises across India. Inspired by top-tier global standards, we engineer bespoke high-performance websites, scalable mobile applications, high-converting e-commerce platforms, and data-driven marketing funnels that accelerate business revenue.",
   founder: "Ranvijay Kumar",

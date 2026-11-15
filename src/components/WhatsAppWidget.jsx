@@ -12,13 +12,20 @@ export default function WhatsAppWidget() {
       {/* Popover Bubble */}
       {open && (
         <div className="mb-3 w-72 rounded-2xl bg-card p-4 shadow-2xl border border-border animate-in fade-in slide-in-from-bottom-2">
-          <div className="flex items-center justify-between border-b pb-2">
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-              </span>
-              <span className="text-xs font-bold text-foreground">WebTech Live Support</span>
+          <div className="flex items-center justify-between border-b pb-2.5">
+            <div className="flex items-center gap-2.5">
+              <div className="relative">
+                <img
+                  src={companyInfo.logo}
+                  alt="WebTech"
+                  className="h-8 w-8 rounded-full object-cover border border-emerald-500/60 shadow-sm"
+                />
+                <span className="absolute bottom-0 right-0 block h-2 w-2 rounded-full bg-emerald-500 ring-2 ring-card" />
+              </div>
+              <div className="text-left">
+                <span className="text-xs font-bold text-foreground block leading-tight">WebTech Support</span>
+                <span className="text-[10px] text-emerald-500 font-semibold">Online • Instant Reply</span>
+              </div>
             </div>
             <button
               onClick={() => setOpen(false)}

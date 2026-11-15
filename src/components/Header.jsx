@@ -77,16 +77,18 @@ export default function Header() {
       <div className="bg-slate-900/95 backdrop-blur-md text-white border-b border-slate-800">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-amber-500 text-white shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform">
-              <Sparkles className="h-5 w-5" />
-            </div>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img
+              src={companyInfo.logo}
+              alt="WebTech Logo"
+              className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl object-cover border border-amber-400/50 shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="font-display text-xl sm:text-2xl font-black tracking-tight leading-none text-white">
                 Web<span className="text-amber-400">Tech</span>
               </span>
-              <span className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold">
-                Premier IT & Digital Agency
+              <span className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold mt-0.5">
+                {companyInfo.tagline}
               </span>
             </div>
           </Link>

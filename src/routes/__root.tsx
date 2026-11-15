@@ -91,7 +91,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:title", content: "WebTech — Top IT & Web Agency in India" },
       { property: "og:description", content: "Crafting modern websites, mobile apps, and high-ROI digital marketing strategies for ambitious businesses nationwide." },
+      { property: "og:image", content: "/images/webtech-logo.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/images/webtech-logo.jpg" },
     ],
     links: [
       {
@@ -101,7 +103,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/images/webtech-logo.jpg", type: "image/jpeg" },
+      { rel: "apple-touch-icon", href: "/images/webtech-logo.jpg" },
     ],
   }),
   shellComponent: RootShell,

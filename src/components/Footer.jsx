@@ -53,16 +53,18 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {/* Col 1: About WebTech */}
         <div className="space-y-4">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-amber-500 text-white shadow-md">
-              <Sparkles className="h-5 w-5" />
-            </div>
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src={companyInfo.logo}
+              alt="WebTech Logo"
+              className="h-11 w-11 sm:h-12 sm:w-12 rounded-xl object-cover border border-amber-400/50 shadow-md"
+            />
             <div className="flex flex-col">
               <span className="font-display text-2xl font-black text-white">
                 Web<span className="text-amber-400">Tech</span>
               </span>
               <span className="text-[10px] tracking-wider text-slate-400 font-semibold uppercase">
-                Pan-India IT Agency
+                {companyInfo.tagline}
               </span>
             </div>
           </Link>
