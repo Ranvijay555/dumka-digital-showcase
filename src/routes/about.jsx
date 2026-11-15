@@ -30,7 +30,7 @@ function About() {
             <img
               src={companyInfo.logo}
               alt="WebTech Logo"
-              className="h-16 w-16 rounded-2xl object-cover border border-amber-400/50 shadow-xl"
+              className="h-20 w-20 rounded-full object-cover border-2 border-amber-400/80 shadow-2xl shadow-amber-400/20 shrink-0"
             />
             <div>
               <h2 className="text-3xl font-black text-foreground">Who We Are</h2>

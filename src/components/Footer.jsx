@@ -57,7 +57,7 @@ export default function Footer() {
             <img
               src={companyInfo.logo}
               alt="WebTech Logo"
-              className="h-11 w-11 sm:h-12 sm:w-12 rounded-xl object-cover border border-amber-400/50 shadow-md"
+              className="h-12 w-12 rounded-full object-cover border-2 border-amber-400/70 shadow-md shrink-0"
             />
             <div className="flex flex-col">
               <span className="font-display text-2xl font-black text-white">

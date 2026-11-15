@@ -59,7 +59,7 @@ function Contact() {
             <img
               src={companyInfo.logo}
               alt="WebTech Logo"
-              className="h-14 w-14 rounded-2xl object-cover border border-amber-400/50 shadow-xl"
+              className="h-16 w-16 rounded-full object-cover border-2 border-amber-400/80 shadow-xl shrink-0"
             />
             <div>
               <h2 className="text-2xl font-black text-foreground">WebTech</h2>

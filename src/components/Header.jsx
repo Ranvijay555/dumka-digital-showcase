@@ -81,7 +81,7 @@ export default function Header() {
             <img
               src={companyInfo.logo}
               alt="WebTech Logo"
-              className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl object-cover border border-amber-400/50 shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform"
+              className="h-11 w-11 sm:h-13 sm:w-13 rounded-full object-cover border-2 border-amber-400/70 shadow-lg shadow-amber-400/20 group-hover:scale-105 transition-transform shrink-0"
             />
             <div className="flex flex-col">
               <span className="font-display text-xl sm:text-2xl font-black tracking-tight leading-none text-white">
